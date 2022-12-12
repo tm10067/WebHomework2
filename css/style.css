@@ -1,0 +1,126 @@
+html {
+    font-family: Futura;
+    font-size: 20px;
+    overflow-x: hidden;
+    background-color: rgba(185, 185, 185, 0.493);
+}
+
+html:before {
+    content: ' ';
+    display:block;
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.aboutme:before {
+    background-image: url("/images/ford-mkIV-2-LM67-8.jpg");
+}
+
+.home:before {
+    background-image: url("/images/home-back.jpg");
+}
+
+.model_list:before {
+    background-image: url("/images/list_back.jpg");
+}
+
+/* коммент */
+
+@font-face {
+    font-family: Futura;
+    src: url("/fonts/futuramdbtrusbyme_medium.otf") format("opentype");
+    }
+
+@font-face {
+    font-family: Futura_bold;
+    src: url("/fonts/futuramdbtrusbyme_bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Futura_italic;
+    src: url("/fonts/futuramdbtrusbyme_mediumitalic.otf") format("opentype");
+    }
+
+
+.logo {
+    margin: 10px 10px 10px 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px; 
+    background-color: #3d94f87e;
+}
+
+img {
+    /* border: 1px dotted;
+    border-radius: 2px; */
+    float: left;
+    height: auto; 
+    width: auto; 
+    max-width: 300px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.header li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    font-family: Futura_bold;
+    font-size: 25px
+}
+
+.container {
+    margin: 0px 100px 0px 0px;
+    padding: 0 auto;
+}
+
+/* #aboutme {
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+p {
+    font-style: italic;
+}
+
+a {
+    color: blueviolet;
+}
+
+a:hover{
+    color: blue;
+}
+
+.footer {
+    margin: 0 10px 0 10px;
+    padding: 10px 10px 0 10px;
+    font-size: 16px;
+}
+
+.disclaimer {
+    font-size: 14px;
+}
