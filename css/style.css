@@ -65,9 +65,7 @@ html:before {
     background-color: #3d94f87e;
 }
 
-img {
-    /* border: 1px dotted;
-    border-radius: 2px; */
+.header img {
     float: left;
     height: auto; 
     width: auto; 
@@ -119,12 +117,33 @@ a:hover{
     color: blue;
 }
 
-.footer {
+.footer{
     margin: 0 10px 0 10px;
     padding: 10px 10px 0 10px;
     font-size: 16px;
 }
 
 .disclaimer {
-    font-size: 14px;
+    font-size: 13px;
+}
+
+.gallery{
+    padding: 1em;
+    column-count: 3;
+    margin: 0 5% 5% 15%; 
+}
+
+.gallery img{
+    width: 100%;
+    max-width: 500px;
+    margin: 1px;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    border: dotted 1px rgba(87, 129, 206, 0.582);
+}
+
+.gallery img:hover{
+    transition: 3s;
+    transform: scale(2.5);
+    border: none;
 }
