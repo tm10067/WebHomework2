@@ -32,6 +32,10 @@ html:before {
     background-image: url("/images/list_back.jpg");
 }
 
+.model1:before {
+    background-image: url("/images/Ferrari-375.jpg");
+}
+
 /* коммент */
 
 @font-face {
